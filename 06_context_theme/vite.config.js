@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react(),
  
   ],
-   base: "/react/06_context_api_ii_theme/",
+   base: "/react/06_context_theme/",
   build: {
     rollupOptions: {
       output: {
