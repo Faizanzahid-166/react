@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { RouterProvider, createHashRouter } from "react-router"; // 👈 use createHashRouter
+import { RouterProvider, createHashRouter, createBrowserRouter } from "react-router"; // 👈 use createHashRouter
 import App from "./App.jsx";
 import { Home, About, Contact, CreateAccount, Error, Signup, Login, User } from "./pages/index.js";
 import "./index.css";
