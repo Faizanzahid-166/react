@@ -49,9 +49,9 @@ const routers = createHashRouter(
       ],
     },
   ],
-  {
-    basename: "/react/03_react_router/", // still needed for GH Pages subdir
-  }
+  // {
+  //   basename: "/react/03_react_router/", // still needed for GH Pages subdir
+  // }
 );
 
 createRoot(document.getElementById("root")).render(
