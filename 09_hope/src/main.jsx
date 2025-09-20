@@ -17,7 +17,7 @@ import Post from "./pages/Post";
 
 import AllPosts from "./pages/AllPosts";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
@@ -76,9 +76,9 @@ const router = createBrowserRouter([
     ],
 },
 ],
-  {
-    basename: "/react/09_hope", // still needed for GH Pages subdir
-  }
+//   {
+//     basename: "/react/09_hope", // still needed for GH Pages subdir
+//   }
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
