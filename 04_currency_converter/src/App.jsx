@@ -36,7 +36,8 @@ const convert = () => {
 
   return (
     <>
-     <div className='w-1/2 bg-indigo-800 bg-opacity-20 rounded-lg m-auto mt-20 p-7 '>
+    <h1 className='font-bold text-2xl text-center mt-3.5'>Currency Converter</h1>
+     <div className='w-1/2 bg-indigo-800 bg-opacity-20 rounded-lg m-auto mt-4 p-7 '>
 
      {/*hi, this is part-i */}
 
@@ -44,7 +45,7 @@ const convert = () => {
       
       {/* inputbox -------------------------------------------------------------------------------------------------*/}
       <div className='w-full mb-2 '>
-      <InputBox lable="From" amount={Amount} currencyOption={option} 
+      <InputBox label="From" amount={Amount} currencyOption={option} 
        onCurrencychange={(currency) => setfrom(currency)}
       selectCurrency={from} onAmountchange={(Amount) => setamount(Amount)}/>
       </div>
@@ -60,7 +61,7 @@ const convert = () => {
 
      {/* inputbox -----------------------------------------------------------------------------------------------------*/}
      <div className='w-full mb-2 '>
-      <InputBox lable="To" amount={convertamount} currencyOption={option} onCurrencychange={(currency) => setto(currency)} amountDisable selectCurrency={to}/>
+      <InputBox label="To" amount={convertamount} currencyOption={option} onCurrencychange={(currency) => setto(currency)} amountDisable selectCurrency={to}/>
       </div>
 
       {/* button-convert */}
