@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-   base: "/react/05_context_api_login/",
+   base: "/react/05_context_login/",
   build: {
     rollupOptions: {
       output: {
