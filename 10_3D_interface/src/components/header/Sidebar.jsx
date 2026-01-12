@@ -13,11 +13,17 @@ export default function Sidebar() {
          <Link to="/Solarsystem" className="bg-[#2c2d30] px-4 py-3 rounded hover:bg-[#3a3b3e] text-left">
           Solar System
         </Link>
-        <Link to="/ProductScene" className="bg-[#2c2d30] px-4 py-3 rounded hover:bg-[#3a3b3e] text-left">
-          Product Viewer
+        <Link to="/RotatingCard" className="bg-[#2c2d30] px-4 py-3 rounded hover:bg-[#3a3b3e] text-left">
+          RotatingCard
         </Link>
            <Link to="/GlobeWithMoon" className="bg-[#2c2d30] px-4 py-3 rounded hover:bg-[#3a3b3e] text-left">
           Earth Moon
+        </Link>
+           <Link to="/TrayLines" className="bg-[#2c2d30] px-4 py-3 rounded hover:bg-[#3a3b3e] text-left">
+          Tray Lines
+        </Link>
+         <Link to="/CenterContent" className="bg-[#2c2d30] px-4 py-3 rounded hover:bg-[#3a3b3e] text-left">
+          Center Content
         </Link>
       </nav>
     </div>
