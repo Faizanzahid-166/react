@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "postbuild": "copy dist\\index.html dist\\404.html",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/Faizanzahid-166/react.git --dest 01_Color_project"
+  "dev": "vite",
+  "build": "vite build",
+  "postbuild": "copy dist\\index.html dist\\404.html",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "homepage": " https://faizanzahid-166.github.io/react/",
+  "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
